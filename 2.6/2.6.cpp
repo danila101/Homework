@@ -91,7 +91,7 @@ main()
 	
 	printf("\n3. Sign of the zodiac: ");
 	
-	if ((m==3&&d>20)||(m==4&&d<21))
+	if (((m==3&&d>20)||(m==4&&d<21))&&(d!=0&&d<32))
 	{
 		printf("Aries");
 	}

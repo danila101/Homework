@@ -10,7 +10,6 @@ main()
 	
 	printf("vedite kolichestvo strok i stolbcov:\n");
 	scanf("%i%i",&n,&m);
-	printf("vedite chisla:\n");
 	
 	srand(time(NULL));
 	
@@ -26,7 +25,7 @@ main()
 	{
 		for(int i=0;i<m;i++)
 		{
-			printf("%7i",mas[j][i]);
+			printf("%4i",mas[j][i]);
 		}
 		printf("\n\n");
 	}

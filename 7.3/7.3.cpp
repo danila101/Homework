@@ -3,6 +3,12 @@
 
 int calc(int a)
 {
+	if(0<=a&&a<=2)
+	{
+		return 0;
+	}
+		
+	
 	for(int i=1;i<a;i++)
 	{
 		if(i*i==a)
@@ -19,6 +25,11 @@ int calc(int a)
 
 void calc(int *a)
 {
+	if(0<=*a&&*a<=2)
+	{
+		*a = 0;
+	}
+		
 	for(int i=1;i<(*a);i++)
 	{
 		if(i*i==(*a))
@@ -37,6 +48,11 @@ void calc(int *a)
 
 void calc(int &a, int b)
 {
+	if(0<=a&&a<=2)
+	{
+		a = 0;
+	}
+		
 	for(int i=1;i<a;i++)
 	{
 		if(i*i==a)
